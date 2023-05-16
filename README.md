@@ -11,6 +11,8 @@
     1. `.\venv\Scripts\activate` - на windows активирует созданное окружение.
     1. `pip install pytest` - устанавливает пакет pytest в созданное виртуальное окружение.
 
+Если при активации окружения возникает ошибка "...Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system." необходимо запустить PowerShell с правами администратора и выполнить команду `Set-ExecutionPolicy RemoteSigned`. Затем перезагрузить PowerShell и ошибка уйдет.
+
 ## Задание 1
 
 1. Напишите код функции `array_diff` в файле `task1.py` на месте комментария `# ВАШ КОД ТУТ`. Описание работы самой функции приведено там же.
